@@ -7,6 +7,7 @@ class Solution {
             this.weight = weight;
         }
     }
+    
     static class Node implements Comparable<Node> {
         int vertex;
         long distance;
