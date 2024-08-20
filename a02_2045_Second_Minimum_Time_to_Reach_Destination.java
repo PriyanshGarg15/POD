@@ -8,6 +8,7 @@ class Solution {
             int a = edge[0], b = edge[1];
             adj.get(a).add(b);
             adj.get(b).add(a);
+            
         }
         int timeTaken[][] = new int[n+1][2]; //visited for 1st and 2nd time
         for(int i=0;i<n+1;i++){
