@@ -11,6 +11,7 @@ class Solution {
             }
             return currShelfHeight + books[bookIndex][1];
         }
+        
 
         // Check if result is already computed
         if (dp[bookIndex][currShelfWidth] != 0) {
