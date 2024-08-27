@@ -19,6 +19,7 @@ class Solution {
             this.probability = probability;
         }
 
+        
         @Override
         public int compareTo(Node other) {
             return Double.compare(this.probability,other.probability);
