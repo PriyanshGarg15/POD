@@ -1,4 +1,5 @@
 class Solution {
+    
     static class Edge {
         int target;
         double probability;
