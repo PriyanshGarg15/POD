@@ -17,6 +17,7 @@ class Solution {
 		}
 
 		for (; i <= 9; i++) {
+			
 			counting(curr * 10 + i, n,list);
 		}
 
