@@ -12,6 +12,8 @@ class Solution {
 		list.add(curr);
 
 		int i = 0;
+	     
+	     
 		if (curr == 0) {
 			i = 1;
 		}
