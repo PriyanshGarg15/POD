@@ -10,6 +10,7 @@ class Solution {
         return sum;
     }
 
+    
     public int countSquares(int[][] matrix) {
         int n = matrix.length, m = matrix[0].length;
 
