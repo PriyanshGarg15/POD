@@ -18,6 +18,8 @@ class Solution {
         for (int j = 0; j < m; j++) {
             dp[0][j] = matrix[0][j];
         }
+
+        
         for (int i = 0; i < n; i++) {
             dp[i][0] = matrix[i][0];
         }
