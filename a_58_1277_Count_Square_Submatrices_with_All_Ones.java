@@ -9,6 +9,7 @@ class Solution {
         }
         return sum;
     }
+    
 
     
     public int countSquares(int[][] matrix) {
