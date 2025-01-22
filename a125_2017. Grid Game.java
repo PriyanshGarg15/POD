@@ -12,6 +12,7 @@ class Solution {
             topSum -= grid[0][pp];
             minSum = Math.min(minSum, Math.max(topSum, bottomSum));
             bottomSum += grid[1][pp];
+
         }
         return minSum;
     }
