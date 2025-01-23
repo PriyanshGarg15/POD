@@ -15,6 +15,7 @@ class Solution {
                     res[i][j] = -1;
                 }
             }
+
         }
         while(!queue.isEmpty()){
             int cell[] = queue.poll();
